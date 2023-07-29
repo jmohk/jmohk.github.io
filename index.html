@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>ymohk</title>
-</head>
-<body>
-    <header>
-        <h1>Hey, this is Yousef Mohamed AKA <span style="color: green;">ymohk</span>.</h1>
-        <h2>Computer Science Student interested in Cyber Security, especially Penetration Testing</h2>
-    </header>
-      <ul>
-          <li>
-              <a href="/google-xss/main.html">Google XSS</a>
-          </li>
-      </ul>
+    <head>
+        <meta charset="UTF-8">
+        <title>ymohk</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" href="images/google-xss-logo.png">
 
-</body>
+    </head>
+    <body>
+        <div class="result" id="output">
+            <h1>Hey🖐🏽this Yousef Mohamed AKA "<span class="ymohk">ymohk</span>".</h1>
+            <h3>Senior-year Computer Science student at October 6 University.</h3>
+            <h3>Interested in Cyber Security, especially penetration testing.</h3>
+            <h3>This website is a terminal simulation to take a look at my career portofolio in a fun way.</h3>
+            <h3>For more type "help" down there and press enter.</h3>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <label>guest@ymohk:~$ </label>
+                <input type="text" id="inputCommand" onchange="handleKeyPress(event)" />
+            </div>
+        </footer> 
+        <script src="script.js"></script>
+
+    </body>
 </html>

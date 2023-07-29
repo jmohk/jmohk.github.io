@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'JetBrainsMono-Bold';
+    src: url('fonts/JetBrainsMono-Bold.woff2') format('woff2');
+}
+
+html, body {
+    
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #293036;
+    color: #ffffff;
+    font-family: 'JetBrainsMono-Bold', monospace;
+  }
+
+footer{
+    border: 1px solid #5d6266;
+    border-radius: 15px;
+    border-color: #4bae22;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: sticky;
+    bottom: 0;
+    background-color: #293036;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-content label {
+    color: #4faf21;
+    padding-right: 10px;
+}
+  
+.footer-content input {
+    flex: 1;
+    padding: 5px;
+    background-color: #293036;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'JetBrainsMono-Bold', monospace;
+}
+
+.result{
+    margin-left: 5px;
+}
+
+.ymohk{
+    color: #4bae22;
+}
