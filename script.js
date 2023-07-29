@@ -56,8 +56,8 @@ function handleKeyPress(event) {
     } else if (labelText === "home") {
         location.reload();
 
-    } else if (labelText === "write") {
-        window.open("https://www.google.com", '_blank');
+    } else if (labelText === "resume") {
+        window.open("https://drive.google.com/file/d/1iMq4f_81QQmtT4TFzWLkB1K6ZYz6OacA/view?usp=sharing", '_blank');
 
     } else if (labelText === "info") {
         const h3Element1 = document.createElement('h3');
